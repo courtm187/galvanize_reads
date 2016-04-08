@@ -1,0 +1,130 @@
+body {
+  padding: 50px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #d9d9d9;
+
+}
+.logo{
+  width: 70px;
+  display: inline;
+  margin-right: 100px;
+}
+
+.headbox {
+  border: 2px solid black;
+  width: 90%;
+  margin-bottom: 20px;
+  vertical-align: middle;
+}
+
+h1 {
+  display: inline;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 200px;
+}
+
+a {
+  color: black;
+}
+.indexAuth{
+  border: 2px solid black;
+  padding: 15px;
+  height: 500px;
+  vertical-align: middle;
+}
+.indexBooks{
+  border: 2px solid black;
+  padding: 15px;
+  height: 500px;
+  vertical-align: middle;
+}
+.placeImage{
+  background-color: black;
+  padding: 15px;
+  border: 2px solid black;
+  height: 350px;
+  vertical-align: middle;
+}
+
+.sideMenu {
+  height: 600px;
+  width: 100px;
+  margin-left: 15px;
+  display: inline;
+  float:left;
+}
+
+.sideBooks{
+  border: 2px solid black;
+  width: 100px;
+  height: 290px;
+}
+.sideAuthors {
+  border: 2px solid black;
+  width: 100px;
+  height: 290px;
+  margin-bottom: 5px;
+
+}
+.thumbnail {
+  padding: 5px;
+  height: 70px;
+  width: 70px;
+  background-color: orange;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+
+}
+
+.sideText{
+  transform: rotate(270deg);
+  display: block;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+.tableDiv{
+  display: inline;
+  float:left;
+}
+.bookTable {
+  padding: 10px;
+  width: 450px;
+  display: inline;
+}
+.bookImg {
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btnClass{
+  float: right;
+}
+.formDiv{
+  display: inline;
+  float:left;
+  margin-left: 50px;
+}
+
+input[type="text"] {
+    width: 300px;
+}
+
+.descField{
+  height: 120px;
+}
+
+.bookImage {
+  height: 300px;
+  width: 200px;
+}

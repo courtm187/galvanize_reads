@@ -1,0 +1,85 @@
+<div class="headbox">
+  <img src="http://static1.squarespace.com/static/55a67d43e4b0b6f2d1158e31/56462eefe4b0f14b0041ec2c/56462f93e4b029db3f122da5/1447441415307/Galvanize-Logo-Text-Logo-.png" alt="galvanize logo" class="logo" />
+  <h1>Galvanize Reads</h1>
+</div>
+
+<div class="sideMenu">
+  <div class="sideAuthors">
+      <div class="thumbnail"></div>
+      <span class="sideText">Authors</span>
+  </div>
+  <div class="sideBooks">
+      <div class="thumbnail"></div>
+      <span class="sideText">Books</span>
+  </div>
+</div>
+
+
+{{#each authors_and_books}}
+
+<h1>BOOK</h1>
+
+Title:
+{{title}}
+
+<br>
+<br>
+
+Author:
+{{first_name}}
+<br>
+{{last_name}}
+
+Genre:
+{{genre}}
+
+<br>
+<br>
+
+Description:
+{{description}}
+
+<img class="bookImage" src="{{cover_image_url}}" alt="" />
+
+<br>
+<br>
+
+
+{{/each}}
+
+<div class="tableDiv">
+<table class="bookTable">
+  <tr>
+    <td>
+      <img src="https://upload.wikimedia.org/wikipedia/en/9/99/Catch22.jpg" alt="" class="bookImg"/>
+    </td>
+    <td>
+      <input type="button" name="name" value="Edit" class="btnClass">
+      <input type="button" name="name" value="Remove" class="btnClass">
+      <h4>Book One</h4>
+      <h5>By Author One and Author Two</h5>
+      <h5>Genre</h5>
+      <p>about about about about about about
+        about about about about about about
+        about about about about about about
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="http://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=22990298" alt="" class="bookImg"/>
+    </td>
+    <td>
+      <input type="button" name="name" value="Edit" class="btnClass">
+      <input type="button" name="name" value="Remove" class="btnClass">
+      <h4>Book Two</h4>
+      <h5>By Author One</h5>
+      <h5>Genre</h5>
+      <p>about about about about about about
+        about about about about about about
+        about about about about about about
+      </p>
+    </td>
+  </tr>
+</table>
+</div>
